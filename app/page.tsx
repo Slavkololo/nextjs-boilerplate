@@ -1,17 +1,17 @@
 import Image from "next/image";
 
-import german from "../public/german.webp";
+import nadya from "../public/nadya.jpg";
 
 export default function Home() {
   return (
     <div>
       <main style={{ textAlign: "center" }}>
         <h2 style={{ fontSize: 20, margin: "24px auto" }}>
-          Поки ця чілібамбонька на ґаматетію дрочить я вже майже пік пройшов
+          Надія Світланівна, заспокойтесь!
         </h2>
         <Image
-          src={german}
-          alt="German lox"
+          src={nadya}
+          alt="Nadya"
           style={{ margin: "0 auto", borderRadius: 24 }}
         />
       </main>
